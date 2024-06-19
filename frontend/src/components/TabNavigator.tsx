@@ -27,7 +27,7 @@ const TabNavigator: React.FC = () => {
 
   return (     
     <>  
-        <div className='py-5 px-7 rounded-t-2xl border-2 bg-white shadow-[0px_-4px_20px_0px_rgba(155,154,156,0.20)]'>
+        <div className='py-5 px-7 w-screen rounded-t-2xl border-2 bg-white shadow-[0px_-4px_20px_0px_rgba(155,154,156,0.20)]'>
             <div className='grid grid-cols-5 justify-items-center items-center gap-x-10'>
                 <IonRouterLink 
                   routerLink='/home'
